@@ -1,0 +1,398 @@
+*{
+  margin:0;
+  padding:0;
+}
+.xiangqingmaomi{
+  width:1220px;
+  margin:auto;
+ 
+ 
+}
+.xiangqingtupian{
+  display: flex; 
+ position: relative;
+ 
+}
+.xiangqingtupian img{
+  width:100%;
+ 
+ 
+}
+.xiangyou{
+  display:flex; 
+ float:right;
+ 
+  
+   margin-right:10px;
+  
+}
+.fenxiangdao{
+ 
+  
+  color:white;
+  font-size:12px;
+  line-height: 30px;
+}
+.qqkongjian,.xinlangweibo,.tengxunweibo,.renrenwang,.weixin,.jia{
+ 
+
+  font-size: 12px;
+  padding-left: 17px;
+  line-height: 30px;
+  height: 16px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 6px 6px 6px 0;
+
+}
+.qqkongjian,.qqkongjian1{
+ 
+  background-image: url(../picture/img/2.jpg.png);
+  background-position: -2px -4px;
+  
+}
+.xinlangweibo{
+ 
+  background-image: url(../picture/img/3.jpg.png);
+  background-position: -5px -2px;
+  
+}
+.tengxunweibo{
+  
+  background-image: url(../picture/img/4.jpg.png);
+  background-position: -5px -2px;
+  
+}
+.renrenwang{
+  
+  background-image: url(../picture/img/5.jpg.png);
+  background-position: -2px -2px;
+  
+}
+.weixin{
+  
+  background-image: url(../picture/img/6.jpg.png);
+  background-position: -1px -4px;
+  
+}
+.jia{
+  
+  background-image: url(../picture/img/1.jpg.png);
+  background-position: -3px -4px;
+  
+}
+
+
+.xiangqingtupian :hover .xiangqingyilou{
+  width: 1920px;
+  
+  height:30px;
+  background-color:#ddd;
+  opacity:0.6;
+}
+.xiangqingtupian:hover .xiangqingyilou{
+  display:block;
+}
+.xiangqingyilou{
+  position: absolute;
+  width:100%;
+  background: rgba(193,193,193,0.8);
+  height:30px;
+  display:none;
+   top:0; 
+}
+.tupiantop{
+  position: relative;
+
+}
+.tupiantop img{
+  position: absolute;
+  left: -360px;
+  top: 0;
+}
+.xiangqing1content{
+  width: 1220px;
+    margin: 0 auto;
+}
+.tupianbottom{
+position:absolute;
+height:30px;
+width:100%;
+background-color:#ddd;
+top:0px;
+opacity:0.6;
+display:none;
+}
+.xiangqing1content:hover .tupianbottom{
+  display:block;
+}
+.xiangqing1left{
+  width: 1220px;
+    margin: 0 auto;
+    margin-top: 53px;
+    
+}
+.xiangqinglefta1{
+  height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    text-indent: 8px;
+    width:950px;
+    /* float:left; */
+    display: inline-block;
+}
+.xiangqinglefta1 a{
+ text-decoration:none;
+ font-size: 16px;
+    color: #333;
+}
+.xiangqinglefta1 a:hover{
+  color: #ff6542;
+}
+.tupiana1{
+   display: inline-block; 
+    vertical-align: top;
+    width: 950px;
+    margin-right: 20px;
+    text-indent: 8px;
+    /* float: left; */
+}
+.tupiantitle{
+  width: 950px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tupianboeder{
+  font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    background-color: #f6f6f6;
+}
+.tupiannews{
+  padding: 30px 10px 0;
+}
+.tupiannews p{
+  display: block;
+  font-size: 16px;
+  
+  -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.new1 a{
+  color:#551A8B;
+}
+.new8{
+  text-align: center;
+}
+.tupiannews p a{
+  color: -webkit-link;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.tupiannews .neww2{
+  text-align: center;
+}
+.weinituijian{
+  width:950px;
+  height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    text-indent: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px
+}
+.tuijiana1{
+  
+  display: inline-block;
+    vertical-align: top;
+    width: 224px;
+    margin: 3px;
+    text-decoration: none;
+    
+}
+.tuijiana1 img{
+  width: 224px;
+  height: 168px;
+}
+.tuijianname{
+  font-size: 14px;
+    margin-top: 0;
+    text-align: left;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    color: #333;
+}
+.sanlou{
+  width:960px;
+}
+.xiangqing1right{
+/* float:left; */
+ 
+  display: inline-block; 
+width:238px;
+
+}
+.xiangqing1youzhi{
+  margin: 0 4px 16px;
+    color: #333333;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 800;
+    width: 228px;
+    height: 42px;
+    border: solid 1px #ff6542;
+}
+.youtitle{
+  margin: 0 4px 16px;
+  color: #333333;
+  line-height: 42px;
+  text-align: center;
+  font-weight: 800;
+  width: 228px;
+  height: 42px;
+  border: solid 1px #ff6542;
+}
+.maoright1 a{
+    display: inline-block;
+    
+    margin: 0 4px;
+  border: 1px solid #eeeeee;
+  width: 228px;
+  height:358px;
+  background-color: white;
+  margin-bottom: 54px;
+  text-decoration: none
+}
+.img{
+  height: 195px;
+  width: 228px;
+  position: relative;
+ 
+   overflow: hidden; 
+}
+.img>img{
+  height: 195px;
+  width: 228px;
+}
+.img>.dj{
+  position: absolute;
+  top: 7px;
+  left: -21px;
+  transform: rotate(-45deg);
+  width: 80px;
+  height: 25px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+  background-color: #EA5413;  
+}
+.redline{
+  height: 3px;
+  background-color: #ea5413;
+  width: 24px;
+  margin: 14px 10px;
+  transition:width 0.5s;  
+}
+.maoright1>a:hover .redline{
+    width:208px;
+}
+.rightmaocon1{
+  width:208px;
+  height: 66px;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  text-align: left;
+  margin:auto;
+  color:#333;
+}
+.rightmaocon1 span{
+    color:#ff6542;
+    font-size: 12px;
+}
+.rightmaocon2 {
+    width:208px;
+    margin:auto;
+  height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  text-align: left;
+  color:#333 !important;
+  line-height: 20px;
+}
+.rightmaocon2 span span{
+  font-weight: 800;
+  color: #ff6542;
+  line-height: 20px;
+}
+.beitemaoshe{
+  width:208px;
+  height:20px;
+  padding:0px 10px;
+
+  color: #999999;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: left;
+ 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.beitemaoshe span{
+  color: #999999;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 1px;
+}
+.beitemaoshe img{
+  margin-top: 3px;
+  display: inline-block;
+  vertical-align: top;
+}
+.clearboth{
+  clear:both;
+}
+.gengduo{
+float:right;
+text-decoration:none;
+color:#333;
+
+}
+.shuxian{
+  width: 2px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    background-color: #ff6542;
+}
+tupiannews img{
+  text-align: center;
+  margin:auto;
+  padding: auto;
+}
+.new2{
+  text-align: center;
+}
+
